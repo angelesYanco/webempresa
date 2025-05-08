@@ -10,7 +10,7 @@ class Service(models.Model):
         max_length=200,
         verbose_name="Subtítulo"
     )
-    content = models.FileField(
+    content = models.TextField(
         verbose_name="Contenido"
     )
     image = models.ImageField(
